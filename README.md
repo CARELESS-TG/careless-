@@ -6,7 +6,7 @@ A powerful and feature-rich **Telegram Music Bot** to stream songs in group voic
 ![Pyrogram](https://img.shields.io/badge/Powered%20By-Pyrogram-orange)
 ![License](https://img.shields.io/github/license/your-username/music-bot)
 ![Deploy](https://img.shields.io/badge/Deploy%20To-Heroku-purple)
-![Stars](https://img.shields.io/github/stars/your-username/music-bot?style=social)
+![Stars](https://img.shields.io/github/stars/CARELESS-TG/music-bot?style=social)
 
 ---
 
