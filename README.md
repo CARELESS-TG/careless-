@@ -1,58 +1,49 @@
-# 🚀 Awesome Project Name
+# 🎧 Telegram Music Bot
 
-![GitHub stars](https://img.shields.io/github/stars/your-username/your-repo?style=social)
-![GitHub forks](https://img.shields.io/github/forks/your-username/your-repo?style=social)
-![Issues](https://img.shields.io/github/issues/your-username/your-repo)
-![License](https://img.shields.io/github/license/your-username/your-repo)
-![Last Commit](https://img.shields.io/github/last-commit/your-username/your-repo)
+A powerful and feature-rich **Telegram Music Bot** to stream songs in group voice chats using **Pyrogram & Py-TgCalls**.
 
-A powerful and simple solution for **[your problem or use case]**.  
-Built with ❤️ using [Technology Stack like Python, React, etc.].
-
----
-
-## 🧭 Table of Contents
-
-- [✨ Features](#-features)
-- [📷 Screenshots](#-screenshots)
-- [⚙️ Installation](#️-installation)
-- [🚀 Usage](#-usage)
-- [🧩 Tech Stack](#-tech-stack)
-- [🤝 Contributing](#-contributing)
-- [📝 License](#-license)
-- [🙋‍♀️ FAQ](#-faq)
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Pyrogram](https://img.shields.io/badge/Powered%20By-Pyrogram-orange)
+![License](https://img.shields.io/github/license/your-username/music-bot)
+![Deploy](https://img.shields.io/badge/Deploy%20To-Heroku-purple)
+![Stars](https://img.shields.io/github/stars/your-username/music-bot?style=social)
 
 ---
 
-## ✨ Features
+## 📌 Features
 
-- 🔥 Fast and lightweight
-- 📱 Responsive design
-- 🔐 Secure and reliable
-- 🌍 Multi-language support
-- 🧪 Unit tested and CI/CD integrated
-
----
-
-## 📷 Screenshots
-
-| Home Page | Dashboard |
-|-----------|-----------|
-| ![Home](https://via.placeholder.com/400x200.png?text=Home+Page) | ![Dashboard](https://via.placeholder.com/400x200.png?text=Dashboard) |
+- 🎵 Stream music from **YouTube**, **Spotify**, **SoundCloud**
+- 🎤 Group Voice Chat streaming
+- 🔎 Inline search for songs
+- 🎚 Admin-only controls
+- 📁 Playlist management
+- 🖥️ Compatible with **Linux**, **VPS**, and **Heroku**
+- 🔒 Safe & Secure (uses official APIs)
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Requirements
+
+- Python 3.10+
+- Telegram API ID & Hash
+- Bot Token from [@BotFather](https://t.me/BotFather)
+- MongoDB URI
+- (Optional) Spotify credentials
+
+---
+
+## 🚀 Installation
 
 ```bash
-# Clone this repository
-git clone https://github.com/your-username/your-repo.git
-
-# Go into the repository
-cd your-repo
+# Clone the repo
+git clone https://github.com/CARELESS-TG/music-bot.git
+cd music-bot
 
 # Install dependencies
-npm install   # or yarn install
+pip install -r requirements.txt
 
-# Start the development server
-npm run dev   # or yarn dev
+# Fill in your config
+cp config.sample.py config.py
+
+# Run the bot
+python3 main.py
