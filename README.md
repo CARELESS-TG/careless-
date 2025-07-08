@@ -1,49 +1,79 @@
-# 🎧 Telegram Music Bot
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=435&lines=🎧+Alexax+Music+Bot;Fastest+Telegram+Music+Player;Stream+from+YouTube+%2F+Files;Built+for+VC+Streaming;Deploy+and+Enjoy+Music" />
+</h1>
 
-A powerful and feature-rich **Telegram Music Bot** to stream songs in group voice chats using **Pyrogram & Py-TgCalls**.
-
-![Python](https://img.shields.io/badge/Python-3.10+-blue)
-![Pyrogram](https://img.shields.io/badge/Powered%20By-Pyrogram-orange)
-![License](https://img.shields.io/github/license/your-username/music-bot)
-![Deploy](https://img.shields.io/badge/Deploy%20To-Heroku-purple)
-![Stars](https://img.shields.io/github/stars/CARELESS-TG/music-bot?style=social)
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00f7ff&height=200&section=header&text=Alexax%20Music%20Bot&fontAlign=50&fontColor=000000&fontSize=40" />
+</div>
 
 ---
 
-## 📌 Features
+## 🎵 About the Bot
 
-- 🎵 Stream music from **YouTube**, **Spotify**, **SoundCloud**
-- 🎤 Group Voice Chat streaming
-- 🔎 Inline search for songs
-- 🎚 Admin-only controls
-- 📁 Playlist management
-- 🖥️ Compatible with **Linux**, **VPS**, and **Heroku**
-- 🔒 Safe & Secure (uses official APIs)
+**AlexaxMusicBot** is a modern music bot for Telegram  
+that plays high-quality audio in group voice chats.
+
+It’s **clean**, **fast**, and easy to use — just add it to your group and use `/play`.
 
 ---
 
-## ⚙️ Requirements
+## 🚀 Features
 
-- Python 3.10+
-- Telegram API ID & Hash
-- Bot Token from [@BotFather](https://t.me/BotFather)
-- MongoDB URI
-- (Optional) Spotify credentials
+- 🎧 Stream music in voice chat  
+- 🔎 Play from YouTube or Telegram files  
+- ⚡ Instant commands  
+- 🔐 Admin-only controls  
+- 🌐 Heroku & Replit deploy supported  
 
 ---
 
-## 🚀 Installation
+## 🎮 Commands
 
-```bash
-# Clone the repo
-git clone https://github.com/CARELESS-TG/music-bot.git
-cd music-bot
+/play [song name] → Play music
+/pause → Pause playback
+/resume → Resume
+/skip → Next track
+/stop → Stop music
 
-# Install dependencies
-pip install -r requirements.txt
 
-# Fill in your config
-cp config.sample.py config.py
+---
 
-# Run the bot
-python3 main.py
+## ☁️ Deploy to Heroku
+
+Click below to deploy instantly:
+
+<p align="center">
+  <a href="https://heroku.com/deploy">
+    <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy on Heroku"/>
+  </a>
+</p>
+
+---
+
+### ⚙️ Config Vars
+API_ID, API_HASH, BOT_TOKEN, SESSION_STRING
+
+
+Use [@StringSessionGeneratorBot](https://t.me/StringSessionGeneratorBot) to generate `SESSION_STRING`.
+
+---
+
+## 💡 Tips
+
+- For 24/7 uptime: Use **Replit + UptimeRobot**  
+- You can replace the play backend with **YouTube-DL** or **ytmusicapi**  
+- Avoid flood wait by using cooldown logic
+
+---
+
+## 👨‍💻 Developer
+
+**Made with 💙 by [Careless-Coder](https://t.me/CarelessCoder)**  
+Bot link: [@AlexaxMusicRobot](https://t.me/AlexaxMusicRobot)
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00f7ff&height=120&section=footer" />
+</div>
+
